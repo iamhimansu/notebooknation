@@ -1,0 +1,141 @@
+.nn-logo {
+    width: 65px;
+    height: 65px
+}
+.uk-navbar-nav>li.uk-active>a {
+    background-color: #ffbd59;
+    border-radius: 50px 50px;
+    color: #1f365c;
+    font-weight: bold;
+}
+
+.uk-navbar-nav.nn-navbar>li>a,
+.uk-navbar-item,
+.uk-navbar-toggle {
+    min-height: 40px;
+    padding: 0px 20px;
+}
+
+.nn-tl-big-circle {
+    position: absolute;
+    background-color: #ffbd595e;
+    z-index: -1;
+    height: 44em;
+    width: 45em;
+    border-radius: 50%;
+    left: -15em;
+    top: -11em;
+}
+
+.nn-sm-c-1 {
+    position: absolute;
+    background-color: #ffbd595e;
+    z-index: -1;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    left: 19em;
+    top: 23em;
+}
+
+.uk-dotnav>*>* {
+    height: 15px;
+    width: 15px;
+}
+
+/* Hover + Focus */
+
+.uk-dotnav>*> :hover,
+.uk-dotnav>*> :focus {
+    background-color: #f0eeef;
+}
+
+/* OnClick */
+
+.uk-dotnav>*> :active {
+    background-color: #e98201;
+}
+
+/* Active */
+
+.uk-dotnav>.uk-active>* {
+    background-color: #ffbd59;
+}
+
+.nn-button {
+    border-radius: 50px 50px;
+    border: 5px solid #ffbd59;
+    color: #1f365c;
+    outline: none;
+}
+
+.nn-button:hover,
+.nn-button:focus {
+    background-color: #ffbd59;
+    color: #1f365c;
+    border-color: transparent;
+}
+
+.nn-button:active,
+.nn-button.uk-active {
+    background-color: #daa625;
+    border: 5px solid #daa625;
+}
+
+.highlight-top:before {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 108px;
+    background-color: #1f365c;
+    padding: 0;
+    position: absolute;
+    margin-left: 0;
+    margin: -5px 0;
+}
+
+.highlight-bottom:before {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 108px;
+    background-color: #1f365c;
+    margin: 52px 0;
+    padding: 0;
+    position: absolute;
+    margin-left: 0;
+}
+.circle-250{
+	 height: 250px;
+	 widows: 250px;   
+     background-color: #ffbd59;
+     border-radius: 50%;   
+}
+.nn-yellow{
+	background-color: #ffbd59;
+	color: #1f365c;
+}
+.black{
+	color: #000000;
+}
+footer.form .uk-input{
+background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  background-clip: padding-box;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.footer-copyright {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-color: #ffcf86;
+    text-transform: uppercase;
+    color: #333435;
+    padding: 23px 25px;
+}
+.scroll-top {
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+}
