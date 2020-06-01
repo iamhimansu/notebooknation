@@ -1,0 +1,8 @@
+NatebookNation = {
+	configs:{
+	background-color: #ffbd59,
+	font-color: #daa625,
+	cobalt-blue: #1f365c,
+	bright-red: #ff1616
+	}
+}
