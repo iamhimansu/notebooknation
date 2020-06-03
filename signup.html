@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Signup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/app.min.css" />
+    <script src="./js/components.js"></script>
+
+</head>
+
+<body>
+    <script>
+        NotebookNation.add.navbar();
+        NotebookNation.add.mobileNavbar();
+   </script>
+    <div class>
+        <div class="uk-grid-match uk-grid-collapse uk-child-width-expand@s" uk-grid>
+            <div>
+                <div class="uk-card uk-card-body uk-padding-large" uk-height-viewport="offset-top: true">
+                    <div class="uk-margin-small-top uk-margin-medium uk-text-large uk-text-center">Join Notebook Nation
+                        <br>
+                        <a href="login.html" class="uk-link-reset uk-text-small"> Already have an account?</a>
+                    </div>
+                    <form class="uk-form-stacked">
+                        <div class="uk-margin">
+                            <div class="uk-form-controls">
+                                <div class="uk-inline">
+                                    <div class="input">
+                                        <span class="input-caption">Email address</span>
+                                        <span class="uk-form-icon" uk-icon="icon: mail"></span>
+                                        <input class="uk-input uk-form-width-large uk-form-large" id="form-stacked-text" type="text" placeholder="abc@email.xyz">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-controls">
+                                <div class="uk-inline">
+                                    <div class="input">
+                                        <span class="input-caption">Enter your password</span>
+                                        <span class="uk-form-icon" uk-icon="icon: lock"></span>
+                                        <input class="uk-input uk-form-width-large uk-form-large" id="form-stacked-text" type="password
+                                        " placeholder="Password">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-controls">
+                                <div class="uk-inline">
+                                    <div class="input">
+                                        <span class="input-caption">Mobile number</span>
+                                        <span class="uk-form-icon" uk-icon="icon: receiver"></span>
+                                        <input class="uk-input uk-form-width-large uk-form-large" id="form-stacked-text" type="tel
+                                        " placeholder="Mobile number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <button class="uk-button uk-button-default nn-button">
+                            Signup</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="uk-visible@s">
+                    <div class="uk-card-media-right uk-cover-container">
+                        <img src="assets/boy.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/pretty-input.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+
+</html>

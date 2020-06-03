@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-        <title>Title</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/uikit.min.css" />
-        <link rel="stylesheet" href="css/app.min.css" />
-    </head>
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/app.min.css" />
+    <script src="./js/components.js"></script>
+</head>
+
 <body>
-    <nav class="uk-navbar-container uk-navbar-transparent uk-margin uk-padding-small" uk-navbar="mode: click">
-        <div class="uk-navbar-left uk-margin-xlarge-left">
-            <a class="uk-navbar-item uk-logo" href="#">
-                <img src="assets/logo.png" alt="" class="nn-logo">
-            </a>
-        </div>
-        <div class="uk-navbar-right uk-margin-large-right">
-            <ul class="uk-navbar-nav nn-navbar">
-                <li class="uk-active"><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Event</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <script>
+        NotebookNation.add.navbar();
+        NotebookNation.add.mobileNavbar();
+
+   </script>
     <div class="uk-section uk-padding-remove-top">
         <div class="uk-container">
             <div class="uk-child-width-expand@s" uk-grid>
@@ -35,7 +27,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores hic quam fuga excepturi molestiae nemo accusamus sit nobis at temporibus, fugiat aliquid recusandae eaque tempore, dolore eligendi sequi tempora praesentium obcaecati iure magnam soluta? Aut sit aliquam iure quia autem!
                         </p>
                         <div>
-                            <button class="uk-button uk-button-default uk-button-large nn-button uk-text-bold">
+                            <button class="uk-button uk-button-default uk-button-large nn-button nn-button-round uk-text-bold">
                                 Enroll now
                             </button>
                         </div>
@@ -171,13 +163,13 @@
                         <div>
                             <div>
                                 <h3 class="uk-text-uppercase">Internship</h3>
-                                <button class="uk-button uk-button-default nn-button">Join now</button>
+                                <button class="uk-button uk-button-default nn-button nn-button-round">Join now</button>
                             </div>
                         </div>
                         <div>
                             <div>
                                 <h3 class="uk-text-uppercase">Web development</h3>
-                                <button class="uk-button uk-button-default nn-button">Join now</button>
+                                <button class="uk-button uk-button-default nn-button nn-button-round">Join now</button>
                             </div>
                         </div>
                     </div>
@@ -262,7 +254,20 @@
             </div>
         </div>
     </div>
-    <footer class="uk-section nn-yellow black">
+    <!-- SUBSCRIBE TO OUR NEWS LETTER -->
+    <div class="uk-section uk-margin-remove-top uk-padding-remove-top">
+        <h2 class="uk-text-center highlight-bottom uk-text-uppercase uk-text-bold uk-margin-medium-bottom">Get updated</h2>
+        <div class="uk-card uk-card-default nn-cobalt-blue uk-padding-large uk-text-center uk-light">
+            <h2>Subscribe to our weekly newsletter</h2>
+            <div class="uk-margin" uk-margin>
+                <div uk-form-custom="target: true">
+                    <input class="uk-input uk-form-width-large" type="text" placeholder="Enter email-id">
+                </div>
+                <button class="uk-button uk-button-default">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <footer class="uk-section nn-yellow-light black">
         <div class="uk-container">
             <h4 class="uk-text-bold">
                 Notebook Nation
@@ -286,24 +291,25 @@
                     </p>
                 </div>
                 <div>
-                    <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
-                        <div class="uk-text-small uk-text-bold">
-                            <span class="uk-text-bold uk-text-uppercase">
-                                get in touch
-                            </span>
-                            <span class="uk-display-block uk-margin-small  uk-padding-remove"><a href="" class="uk-button uk-button-text">About</a></span>
-                            <span class="uk-display-block uk-margin-small uk-padding-remove"><a href="" class="uk-button uk-button-text">Contact us</a></span>
-                            <span class="uk-display-block uk-margin-small uk-padding-remove"><a href="" class="uk-button uk-button-text">Who are we?</a></span>
+                    <div class="uk-column-1-3">
+                        <div class="">
+                            <div class="uk-text-small uk-text-bold">
+                                <span class="uk-text-bold uk-text-uppercase">
+                                    get in touch
+                                </span>
+                                <span class="uk-display-block uk-margin-small  uk-padding-remove"><a href="" class="uk-button uk-button-text">About</a></span>
+                                <span class="uk-display-block uk-margin-small uk-padding-remove"><a href="" class="uk-button uk-button-text">Contact us</a></span>
+                                <span class="uk-display-block uk-margin-small uk-padding-remove"><a href="" class="uk-button uk-button-text">Who are we?</a></span>
+                            </div>
                         </div>
-                        <div class="form">
-                            <span class="uk-text-bold uk-text-small uk-text-uppercase">
-                                Subscribe to newsletter!
-                            </span>
-                            <div class="uk-margin">
-                                <div class="uk-inline">
-                                    <span class="uk-form-icon" uk-icon="icon: user"></span>
-                                    <input class="uk-input uk-padding-remove" type="email" placeholder="Your email">
-                                </div>
+                        <div class="">
+                            <div class="uk-text-small uk-text-bold">
+                                <span class="uk-text-bold uk-text-uppercase">
+                                    Latest events
+                                </span>
+                                <span class="uk-display-block uk-margin-small  uk-padding-remove"><a href="" class="uk-button uk-button-text">Paheli</a></span>
+                                <span class="uk-display-block uk-margin-small uk-padding-remove"><a href="" class="uk-button uk-button-text">Khoj 1.0</a></span>
+                                <span class="uk-display-block uk-margin-small uk-padding-remove"><a href="" class="uk-button uk-button-text">Khoj 2.0</a></span>
                             </div>
                         </div>
                         <div>
